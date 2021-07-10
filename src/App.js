@@ -39,7 +39,6 @@ class App extends Component {
         <Layout.Content style={{ margin: '0 auto 50px auto', textAlign: 'center', padding: '10px' }}>
           <img style={{margin: '0 auto', minWidth:'100px', maxHeight: '200px'}} src={Duolingo} alt="Duolingo Logo" />
           <Typography.Title>Kamusi ya Kiswahili</Typography.Title>
-          <small style={{display: 'block', textAlign: 'left'}}>Translation information from Duolingo</small>
           <InputForm onChange={this.inputChange.bind(this)} />
         </Layout.Content>
         <div style={{ backgroundColor: 'white', padding: '40px' }}>
